@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Remote RE-en/De-en utility class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Auto Service Order</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Raised</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Auto Remote Service Notification</ENTRY>
+     <LENGTH>64</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Linked Service Notification</ENTRY>
+     <LENGTH>54</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Required Start Date</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_0015</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not More Closely Defined Area, Possibly Used for Patchlevels</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_0027</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not More Closely Defined Area, Possibly Used for Patchlevels</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_0233</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not More Closely Defined Area, Possibly Used for Patchlevels</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_DEEN_SN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transaction Object ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_ELE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Not More Closely Defined Area, Possibly Used for Patchlevels</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_ELE_ONLY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>3-Byte field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_LAST_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date at Which a Time Slice Expires</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_MNCOD_0234</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Activity Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_MNGRP_ELE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Code Group - Activities</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_MOVE_IN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Scenario of Move-in</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_SCEN_TRANSFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character Field Length = 10</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_STAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GC_TRANSFER_IN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Version Number Component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GO_CRR_DB_PROCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request Response Database process</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GO_REEN_DEEN_DAO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DAO interface for R-en/de-en.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IDM_REMOTE_REEN_DEEN_UTIL</CLSNAME>
+     <CMPNAME>GO_SNTL_DAO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SNTL DAO Interface</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

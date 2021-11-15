@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>YCL_IID_CUST_SWT_TRNSF_IN_UTL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Customer Switching Transfer In Util Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IID_CUST_SWT_TRNSF_IN_UTL</CLSNAME>
+     <CMPNAME>GO_CUST_SWT_DAO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer Switch-Transfer In DAO Inteface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>YCL_IID_CUST_SWT_TRNSF_IN_UTL</CLSNAME>
+     <CMPNAME>GO_FT_DAO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Faster Transfer DAO interface</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
